@@ -56,6 +56,7 @@ def scrape():
         #temp.append(i.findAll("h3")[0].text)
         mill_google.append(temp)
     return mill_google[0][1] + mill_google[0][0] + mill_google[0][2]
+	
 if __name__ == '__main__':
    app.debug = True
    app.run()
